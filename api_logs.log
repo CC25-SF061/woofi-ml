@@ -26,3 +26,7 @@
 2025-04-07 20:22:45,618 - INFO - Rekomendasi ditemukan: 5 item
 2025-04-07 20:22:52,936 - INFO - Rekomendasi request | q='Tugu nasional penjajahan' | kategori='None' | provinsi='None'
 2025-04-07 20:22:52,945 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:30:14,479 - INFO - Rekomendasi request | q='Tugu Penjajahan ' | kategori='None' | provinsi='None'
+2025-04-07 20:30:14,487 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:32:11,856 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Sulawesi Selatan'
+2025-04-07 20:32:11,866 - INFO - Rekomendasi ditemukan: 5 item

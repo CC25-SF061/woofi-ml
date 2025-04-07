@@ -1,0 +1,28 @@
+2025-04-07 20:00:12,993 - INFO - Rekomendasi request | q='pendakian' | kategori='Gunung' | provinsi='Bali'
+2025-04-07 20:00:13,005 - INFO - Rekomendasi ditemukan: 0 item
+2025-04-07 20:03:54,045 - INFO - Rekomendasi request | q=' ' | kategori='Taman wisata' | provinsi='Riau'
+2025-04-07 20:03:54,062 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:04:04,630 - INFO - Rekomendasi request | q=' ' | kategori='Taman wisata' | provinsi='Riau'
+2025-04-07 20:04:04,638 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:18:47,354 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:18:47,357 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:18:58,508 - INFO - Rekomendasi request | q=' ' | kategori='Taman wisata' | provinsi='Riau'
+2025-04-07 20:18:58,517 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:19:06,547 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:19:06,554 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:19:11,866 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:19:11,877 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:19:12,863 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:19:12,869 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:19:30,799 - INFO - Rekomendasi request | q='   ' | kategori='None' | provinsi='Bali'
+2025-04-07 20:19:30,808 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:19:40,550 - INFO - Rekomendasi request | q='   ' | kategori='None' | provinsi='Bali'
+2025-04-07 20:19:40,554 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:21:29,524 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Kalimantan Utara'
+2025-04-07 20:21:29,533 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:21:37,107 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Kalimantan Utara'
+2025-04-07 20:21:37,112 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:22:45,605 - INFO - Rekomendasi request | q='Tugu nasional penjajahan' | kategori='None' | provinsi='None'
+2025-04-07 20:22:45,618 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:22:52,936 - INFO - Rekomendasi request | q='Tugu nasional penjajahan' | kategori='None' | provinsi='None'
+2025-04-07 20:22:52,945 - INFO - Rekomendasi ditemukan: 5 item

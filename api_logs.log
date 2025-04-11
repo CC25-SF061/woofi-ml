@@ -30,3 +30,58 @@
 2025-04-07 20:30:14,487 - INFO - Rekomendasi ditemukan: 5 item
 2025-04-07 20:32:11,856 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Sulawesi Selatan'
 2025-04-07 20:32:11,866 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:34:53,656 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:34:53,663 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 20:34:59,792 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Riau'
+2025-04-07 20:34:59,799 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 21:56:09,599 - INFO - Rekomendasi request | q='Taman Wisata pengetahuan' | kategori='None' | provinsi='None'
+2025-04-07 21:56:10,934 - INFO - Query diterjemahkan: 'Taman Wisata pengetahuan' -> 'Knowledge Tourism Park'
+2025-04-07 21:56:10,960 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 21:56:17,834 - INFO - Rekomendasi request | q='Taman Wisata pengetahuan' | kategori='None' | provinsi='None'
+2025-04-07 21:56:18,407 - INFO - Query diterjemahkan: 'Taman Wisata pengetahuan' -> 'Knowledge Tourism Park'
+2025-04-07 21:56:18,417 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 21:57:01,530 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-07 21:57:02,950 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-07 21:57:02,950 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 21:57:15,184 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-07 21:57:16,162 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-07 21:57:16,164 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 21:57:33,481 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-07 21:57:34,081 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-07 21:57:34,081 - INFO - Rekomendasi ditemukan: 1 item
+2025-04-07 21:57:42,006 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-07 21:57:42,682 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-07 21:57:42,692 - INFO - Rekomendasi ditemukan: 1 item
+2025-04-07 22:00:48,598 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Sumatera Selatan'
+2025-04-07 22:00:49,264 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-07 22:00:49,283 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 22:01:10,552 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Nusa Tenggara Barat'
+2025-04-07 22:01:11,175 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-07 22:01:11,187 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-07 22:03:05,442 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-07 22:03:05,963 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-07 22:03:05,978 - INFO - Rekomendasi ditemukan: 1 item
+2025-04-08 20:58:26,277 - INFO - Rekomendasi request | q='gunung' | kategori='None' | provinsi='None'
+2025-04-08 20:58:26,800 - INFO - Query diterjemahkan: 'gunung' -> 'mountain'
+2025-04-08 20:58:26,842 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-08 21:06:36,003 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-08 21:06:36,605 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-08 21:06:36,673 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-08 21:07:01,939 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-08 21:07:02,355 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-08 21:07:02,376 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-08 21:09:31,223 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-08 21:09:31,692 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-08 21:09:31,717 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-08 21:09:50,266 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-08 21:09:50,790 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-08 21:09:50,817 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-08 21:09:50,980 - INFO - Rekomendasi request | q='\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' | kategori='None' | provinsi='None'
+2025-04-08 21:09:51,371 - INFO - Query diterjemahkan: '\u30b5\u30fc\u30d5\u30a3\u30f3\u306b\u9069\u3057\u305f\u30d3\u30fc\u30c1' -> 'A beach suitable for surfing'
+2025-04-08 21:09:51,389 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-08 21:10:12,716 - INFO - Rekomendasi request | q=' ' | kategori='Pantai' | provinsi='None'
+2025-04-08 21:10:13,102 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-08 21:10:13,116 - INFO - Rekomendasi ditemukan: 399 item
+2025-04-08 21:10:19,804 - INFO - Rekomendasi request | q=' ' | kategori='Pantai' | provinsi='None'
+2025-04-08 21:10:20,185 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-08 21:10:20,194 - INFO - Rekomendasi ditemukan: 399 item

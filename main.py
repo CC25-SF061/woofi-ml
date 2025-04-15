@@ -189,7 +189,7 @@ def recommend_for_existing_user(user_data, wisata_df, top_n=5):
 # ========== Endpoint: Rekomendasi berdasarkan query ==========
 @app.get("/rekomendasi")
 def get_rekomendasi(
-    q: str = Query(..., description="Masukkan kata kunci pencarian (dalam bahasa apa saja)"),
+    q: str = Query(" ", description="Masukkan kata kunci pencarian (dalam bahasa apa saja)"),
     kategori: Optional[str] = Query(None, description="Nama kategori (misal: Gunung, Pantai)"),
     provinsi: Optional[str] = Query(None, description="Nama provinsi (misal: Bali, Sumatera Selatan)"),
     top_k: Optional[int] = Query(None, description="Jumlah maksimal hasil (kosongkan untuk tampil semua)")

@@ -85,3 +85,36 @@
 2025-04-08 21:10:19,804 - INFO - Rekomendasi request | q=' ' | kategori='Pantai' | provinsi='None'
 2025-04-08 21:10:20,185 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
 2025-04-08 21:10:20,194 - INFO - Rekomendasi ditemukan: 399 item
+2025-04-15 15:07:10,390 - INFO - Rekomendasi request | q='gunung' | kategori='None' | provinsi='None'
+2025-04-15 15:07:11,289 - INFO - Rekomendasi ditemukan: 5 item
+2025-04-15 20:24:58,588 - INFO - Request rekomendasi-user: {'gender': 'male', 'age': 21, 'is_new_user': True, 'interest': ['Mountain', 'Beach']}
+2025-04-15 20:24:58,606 - ERROR - Error di endpoint rekomendasi-user: could not convert string to float: 'male'
+2025-04-15 20:25:00,208 - INFO - Request rekomendasi-user: {'gender': 'male', 'age': 21, 'is_new_user': True, 'interest': ['Mountain', 'Beach']}
+2025-04-15 20:25:00,221 - ERROR - Error di endpoint rekomendasi-user: could not convert string to float: 'male'
+2025-04-15 20:25:09,759 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 21, 'is_new_user': True, 'interest': ['Mountain', 'Beach']}
+2025-04-15 20:25:09,806 - ERROR - Error di endpoint rekomendasi-user: "['Kategori'] not in index"
+2025-04-15 20:26:22,978 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 21, 'is_new_user': True, 'interest': ['Museum', 'Beach']}
+2025-04-15 20:26:23,008 - ERROR - Error di endpoint rekomendasi-user: "['Kategori'] not in index"
+2025-04-15 20:26:31,921 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 21, 'is_new_user': True, 'interest': ['Museum', 'Pantai']}
+2025-04-15 20:26:31,964 - ERROR - Error di endpoint rekomendasi-user: "['Kategori'] not in index"
+2025-04-15 20:26:35,477 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 21, 'is_new_user': True, 'interest': ['Museum', 'Pantai']}
+2025-04-15 20:26:35,512 - ERROR - Error di endpoint rekomendasi-user: "['Kategori'] not in index"
+2025-04-15 20:40:05,888 - INFO - Request rekomendasi-user: {'gender': 'male', 'age': 21, 'is_new_user': True, 'interest': ['Mountain', 'Beach']}
+2025-04-15 20:40:05,904 - ERROR - Error di endpoint rekomendasi-user: could not convert string to float: 'male'
+2025-04-15 20:40:14,205 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 21, 'is_new_user': True, 'interest': ['Mountain', 'Beach']}
+2025-04-15 20:40:14,234 - ERROR - Error di endpoint rekomendasi-user: "['Kategori'] not in index"
+2025-04-15 20:46:40,622 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
+2025-04-15 20:46:40,622 - ERROR - Error di endpoint rekomendasi-user: 'Kategori'
+2025-04-15 20:46:43,998 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
+2025-04-15 20:46:43,998 - ERROR - Error di endpoint rekomendasi-user: 'Kategori'
+2025-04-15 20:48:58,531 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
+2025-04-15 20:52:09,293 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-15 20:55:08,306 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 22, 'is_new_user': True, 'interest': ['Mountain', 'Waterfall', 'Forest']}
+2025-04-15 20:58:31,090 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 22, 'is_new_user': True, 'interest': ['Mountain', 'Waterfall', 'Forest']}
+2025-04-15 21:04:31,559 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 22, 'is_new_user': True, 'interest': ['Mountain', 'Waterfall', 'Forest']}
+2025-04-15 21:04:31,628 - ERROR - Error di endpoint rekomendasi-user: "['Provinsi'] not in index"
+2025-04-15 21:08:10,356 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-15 21:18:34,126 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-15 21:21:07,060 - INFO - Rekomendasi request | q=' ' | kategori='Pantai' | provinsi='Bali'
+2025-04-15 21:21:08,215 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-15 21:21:08,228 - INFO - Rekomendasi ditemukan: 16 item

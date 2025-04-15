@@ -125,3 +125,6 @@
 2025-04-15 21:24:04,086 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
 2025-04-15 21:34:49,454 - INFO - Rekomendasi request | q='None' | kategori='Gunung' | provinsi='None'
 2025-04-15 21:34:50,029 - WARNING - Gagal menerjemahkan query 'None', error: the JSON object must be str, bytes or bytearray, not NoneType
+2025-04-15 21:37:35,560 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Sumatera Barat'
+2025-04-15 21:37:36,273 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-15 21:37:36,294 - INFO - Rekomendasi ditemukan: 75 item

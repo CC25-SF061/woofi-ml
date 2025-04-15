@@ -1,9 +1,20 @@
-File utama ==> Notebookfiks.ipynb
+📚 Dataset Tempat_Wisata.csv
+Sumber Data: Google Maps (https://maps.google.com)
 
-model (belum fiks) ==> woofi_model.pkl
+Metode Pengambilan Data: Manual scraping berdasarkan tempat wisata di wilayah [sebutkan: misal Sumatera Selatan, Lampung, dll].
 
-Folder DataMentah ==> dataset 38 provinsi secara terpisah
+Fitur yang dikumpulkan:
 
-Folder Dataset ==> Dataset gabungan
+Nama Tempat Wisata
 
-File sisanya bisa diabaikan
+Rating
+
+Kategori
+
+Provinsi
+
+Link Google Maps
+
+Deskripsi
+
+Foto

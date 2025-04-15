@@ -163,26 +163,37 @@ def recommend_for_existing_user(user_data, wisata_df, top_n=5):
     searchs = user_data.get("searchs", [])
     searched_places = [s["name"] for s in searchs if isinstance(s, dict) and "name" in s]
 
+    # Filter rekomendasi berdasarkan interest dan belum pernah dicari
     rekomendasi = wisata_df[
         wisata_df["Kategori"].isin(user_interest) &
         ~wisata_df["NameLocation"].isin(searched_places)
+    ].copy()
+
+    # Tambahkan interest dalam Bahasa Inggris
+    rekomendasi["interest"] = rekomendasi["Kategori"].map(kategori_to_interest)
+
+    # Bersihkan nilai NaN
+    rekomendasi = rekomendasi.fillna("")
+
+    # Pastikan kolom yang ingin ditampilkan selalu ada (meskipun kosong)
+    kolom_wajib = [
+        "Rating", "Foto", "Provinsi", "Alamat", "Penjelasan_English", "LinkGmaps"
     ]
+    for col in kolom_wajib:
+        if col not in rekomendasi.columns:
+            rekomendasi[col] = ""
 
-    hasil = rekomendasi.merge(
-        wisata_df[["NameLocation", "LinkGmaps", "Rating", "Foto", "Provinsi", "Alamat", "Penjelasan_English"]],
-        on="NameLocation", how="left"
-    )
-
-    hasil["interest"] = hasil["Kategori"].map(kategori_to_interest)
-    hasil = hasil.fillna("")  # untuk menghindari NaN saat return JSON
-
+    # Batasi jumlah jika top_n disediakan
     if top_n:
-        hasil = hasil.head(top_n)
+        rekomendasi = rekomendasi.head(top_n)
 
-    return hasil[[
+    # Kolom hasil akhir yang akan ditampilkan
+    kolom_output = [
         "NameLocation", "interest", "Rating", "Foto", "Provinsi",
         "Alamat", "Penjelasan_English", "LinkGmaps"
-    ]].drop_duplicates().to_dict(orient="records")
+    ]
+
+    return rekomendasi[kolom_output].drop_duplicates().to_dict(orient="records")
 
 
 

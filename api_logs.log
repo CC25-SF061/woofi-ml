@@ -128,3 +128,25 @@
 2025-04-15 21:37:35,560 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Sumatera Barat'
 2025-04-15 21:37:36,273 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
 2025-04-15 21:37:36,294 - INFO - Rekomendasi ditemukan: 75 item
+2025-04-15 21:38:52,464 - INFO - Rekomendasi request | q=' Tugu Bersejarah Penjajahan' | kategori='None' | provinsi='None'
+2025-04-15 21:38:53,795 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-15 21:55:12,618 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 21:55:12,652 - ERROR - Error di endpoint rekomendasi-user: "['Rating', 'Foto', 'Provinsi', 'Alamat', 'Penjelasan_English', 'LinkGmaps'] not in index"
+2025-04-15 21:58:07,712 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}], 'top_n': 10}
+2025-04-15 21:58:07,720 - ERROR - Error di endpoint rekomendasi-user: The column label 'NameLocation' is not unique.
+2025-04-15 21:58:27,335 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 21:58:27,335 - ERROR - Error di endpoint rekomendasi-user: The column label 'NameLocation' is not unique.
+2025-04-15 21:59:52,649 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 21:59:52,672 - ERROR - Error di endpoint rekomendasi-user: "['Rating', 'Foto', 'Provinsi', 'Alamat', 'Penjelasan_English', 'LinkGmaps'] not in index"
+2025-04-15 22:03:58,524 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:03:58,549 - ERROR - Error di endpoint rekomendasi-user: "['Rating', 'Foto', 'Provinsi', 'Alamat', 'Penjelasan_English', 'LinkGmaps'] not in index"
+2025-04-15 22:12:10,167 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-15 22:12:44,849 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:12:44,865 - ERROR - Error di endpoint rekomendasi-user: The column label 'NameLocation' is not unique.
+2025-04-15 22:12:49,526 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:12:49,532 - ERROR - Error di endpoint rekomendasi-user: The column label 'NameLocation' is not unique.
+2025-04-15 22:14:02,426 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}], 'top_n': 10}
+2025-04-15 22:14:18,274 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:14:23,913 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:19:45,703 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
+2025-04-15 22:20:07,372 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}

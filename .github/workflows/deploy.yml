@@ -1,9 +1,9 @@
 name: Docker Build and Deploy
- on:
+  on:
      push:
          branches:
              - master
- jobs:
+jobs:
      build-and-deploy:
          runs-on: ubuntu-24.04
  

@@ -57,3 +57,5 @@ Sebuah proyek machine learning yang memberikan rekomendasi tempat wisata di Indo
 
 pip install -r requirements.txt
 
+atau gunakan [docker](https://hub.docker.com/r/kesavamas/woofi-ml) 
+

@@ -170,3 +170,17 @@
 2025-04-16 08:45:40,046 - INFO - Rekomendasi ditemukan: 2212 item
 2025-04-16 08:46:57,085 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
 2025-04-16 08:47:59,880 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
+2025-04-16 14:44:38,798 - INFO - Rekomendasi request | q=' ' | kategori='Pantai' | provinsi='None'
+2025-04-16 14:44:39,643 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 14:44:39,658 - INFO - Rekomendasi ditemukan: 399 item
+2025-04-16 14:51:36,639 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-16 14:54:36,323 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-16 14:55:07,082 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
+2025-04-16 14:55:44,026 - INFO - Rekomendasi request | q=' Tugu Bersejarah penjajahan' | kategori='None' | provinsi='None'
+2025-04-16 14:56:11,607 - INFO - Rekomendasi request | q=' Tugu Bersejarah penjajahan' | kategori='None' | provinsi='None'
+2025-04-16 14:56:41,093 - INFO - Rekomendasi request | q=' ' | kategori='Beach' | provinsi='None'
+2025-04-16 14:56:42,171 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 14:57:27,948 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-16 14:57:28,354 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 14:57:47,091 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Papua'
+2025-04-16 14:57:47,504 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found

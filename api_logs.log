@@ -150,3 +150,10 @@
 2025-04-15 22:14:23,913 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
 2025-04-15 22:19:45,703 - INFO - Request rekomendasi-user: {'is_new_user': False, 'gender': 1, 'age': 25, 'interest': ['Mountain', 'Beach'], 'searchs': [{'name': 'Gunung Bromo'}, {'name': 'Pantai Kuta'}]}
 2025-04-15 22:20:07,372 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-15 22:21:44,780 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-16 08:21:12,072 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-16 08:21:12,754 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 08:21:12,777 - INFO - Rekomendasi ditemukan: 1 item
+2025-04-16 08:21:27,400 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Bali'
+2025-04-16 08:21:27,803 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 08:21:27,807 - INFO - Rekomendasi ditemukan: 89 item

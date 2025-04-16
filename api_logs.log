@@ -157,3 +157,16 @@
 2025-04-16 08:21:27,400 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Bali'
 2025-04-16 08:21:27,803 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
 2025-04-16 08:21:27,807 - INFO - Rekomendasi ditemukan: 89 item
+2025-04-16 08:44:46,031 - INFO - Rekomendasi request | q=' Pantai dengan pasir putih' | kategori='None' | provinsi='None'
+2025-04-16 08:44:46,997 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-16 08:45:13,566 - INFO - Rekomendasi request | q=' ' | kategori='Museum/Sejarah' | provinsi='None'
+2025-04-16 08:45:14,430 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 08:45:14,447 - INFO - Rekomendasi ditemukan: 160 item
+2025-04-16 08:45:26,282 - INFO - Rekomendasi request | q=' ' | kategori='Museum' | provinsi='None'
+2025-04-16 08:45:26,726 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 08:45:26,731 - INFO - Rekomendasi ditemukan: 160 item
+2025-04-16 08:45:39,637 - INFO - Rekomendasi request | q=' ' | kategori='None' | provinsi='Aceh'
+2025-04-16 08:45:40,039 - WARNING - Gagal menerjemahkan query ' ', error: sequence item 0: expected str instance, NoneType found
+2025-04-16 08:45:40,046 - INFO - Rekomendasi ditemukan: 2212 item
+2025-04-16 08:46:57,085 - INFO - Request rekomendasi-user: {'gender': 1, 'age': 24, 'is_new_user': True, 'interest': ['Beach', 'Mountain', 'Forest']}
+2025-04-16 08:47:59,880 - INFO - Request rekomendasi-user: {'gender': 0, 'age': 25, 'is_new_user': False, 'interest': ['Beach', 'Mountain', 'Museum'], 'searchs': [{'count': 12, 'name': 'Pantai Suak Ribee'}, {'count': 5, 'name': 'Taman Nasional Gunung Leuser'}]}
